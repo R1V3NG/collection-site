@@ -1,27 +1,27 @@
 @font-face {
     font-family: "Open Sans";
-    src: url('/fonts/OpenSans-Regular.ttf');
+    src: url('fonts/OpenSans-Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url('/fonts/OpenSans-Bold.ttf');
+    src: url('fonts/OpenSans-Bold.ttf');
     font-weight: 700;
     font-style: bold;
 }
 
 @font-face {
     font-family: "Cormorant";
-    src: url('/fonts/Cormorant-Bold.ttf');
+    src: url('fonts/Cormorant-Bold.ttf');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Cormorant";
-    src: url('/fonts/Cormorant-BoldItalic.ttf');
+    src: url('fonts/Cormorant-BoldItalic.ttf');
     font-weight: 700;
     font-style: italic;
 }
@@ -160,7 +160,7 @@ p {
 
 .content-container {
     position: relative;
-    background-image: url(/images/hero.png);
+    background-image: url(images/hero.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ p {
 
 .cta-container {
     position: relative;
-    background-image: url(/images/hero-bottom.png);
+    background-image: url(images/hero-bottom.png);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -799,5 +799,6 @@ p {
         opacity: 0;
         margin-bottom: 60px;
     }
+
 
 }
