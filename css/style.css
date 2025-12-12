@@ -1,27 +1,27 @@
 @font-face {
     font-family: "Open Sans";
-    src: url('fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans-Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url('fonts/OpenSans-Bold.ttf');
+    src: url('../fonts/OpenSans-Bold.ttf');
     font-weight: 700;
     font-style: bold;
 }
 
 @font-face {
     font-family: "Cormorant";
-    src: url('fonts/Cormorant-Bold.ttf');
+    src: url('../fonts/Cormorant-Bold.ttf');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Cormorant";
-    src: url('fonts/Cormorant-BoldItalic.ttf');
+    src: url('../fonts/Cormorant-BoldItalic.ttf');
     font-weight: 700;
     font-style: italic;
 }
@@ -802,5 +802,6 @@ p {
 
 
 }
+
 
 
