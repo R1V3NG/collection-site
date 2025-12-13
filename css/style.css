@@ -417,14 +417,6 @@ p {
     padding-top: 3px;
 }
 
-
-.con {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
 /* Style Default Buttons */
 .button {
     font-size: 16px;
@@ -560,7 +552,7 @@ p {
     margin-top: 15px;
     margin-bottom: 60px;
     justify-content: center;
-    max-width: 255px;
+    width: 255px;
 }
 
 .pagination__pages {
@@ -700,7 +692,6 @@ p {
     background-color: var(--primary_green);
 }
 
-
 /* Style Inputs */
 
 .input {
@@ -801,6 +792,12 @@ p {
 }
 
 @media screen and (max-width: 1110px) {
+    .header__logo{
+        padding-left: 32px;
+    }
+    .header__buttons {
+        gap: 32px;
+    }
     .heading-block {
         padding-left: 32px;
         padding-right: 32px;
@@ -863,10 +860,6 @@ p {
         gap: 32px;
     }
 
-    .header__buttons {
-        gap: 32px;
-    }
-
     .content-container__content {
         height: fit-content;
     }
@@ -905,5 +898,4 @@ p {
     .pagination-container-alt {
         display: flex;
     }
-
 }
